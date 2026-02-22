@@ -28,8 +28,9 @@ const config: Config = {
         "body-muted": "#555555",
       },
       fontFamily: {
+        manrope: ["var(--font-manrope)"],
         serif: ["var(--font-playfair)", "Georgia", "serif"],
-        sans: ["var(--font-inter)", "system-ui", "sans-serif"],
+        sans: ["var(--font-manrope)"],
       },
     },
   },

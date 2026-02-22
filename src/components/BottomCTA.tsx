@@ -10,7 +10,7 @@ gsap.registerPlugin(ScrollTrigger);
 export function BottomCTA() {
   const sectionRef = useRef<HTMLElement>(null);
   const headlineRef = useRef<HTMLHeadingElement>(null);
-  const visualRef = useRef<HTMLDivElement>(null);
+  const visualRef = useRef<HTMLParagraphElement>(null);
   const buttonsRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -35,7 +35,7 @@ export function BottomCTA() {
         <div ref={buttonsRef} className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link
             href="/login"
-            className="inline-flex items-center justify-center px-8 py-3.5 rounded-full bg-accent text-white font-semibold hover:bg-accent-dark transition-colors w-full sm:w-auto"
+            className="inline-flex items-center justify-center px-8 py-3.5 rounded-full bg-accent text-black font-semibold hover:bg-accent-dark transition-colors w-full sm:w-auto"
           >
             Get started
           </Link>

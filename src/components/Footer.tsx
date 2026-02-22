@@ -56,8 +56,8 @@ export function Footer() {
               Find and list short-term rentals across Nigeria. Book with confidence, host with ease.
             </p>
             <Link
-              href="/signup"
-              className="inline-flex items-center justify-center mt-6 px-6 py-3 rounded-full bg-accent text-white font-medium hover:bg-accent-dark transition-colors shrink-0"
+              href="/login"
+              className="inline-flex items-center justify-center mt-6 px-6 py-3 rounded-full bg-accent text-black font-medium hover:bg-accent-dark transition-colors shrink-0"
             >
               Get started
             </Link>

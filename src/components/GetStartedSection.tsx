@@ -61,7 +61,7 @@ export function GetStartedSection() {
               </p>
               <Link
                 href="/login"
-                className="inline-flex items-center justify-center px-6 py-3 rounded-full bg-accent text-white font-medium hover:bg-accent-dark transition-colors"
+                className="inline-flex items-center justify-center px-6 py-3 rounded-full bg-accent text-black font-medium hover:bg-accent-dark transition-colors"
               >
                 Become a host
               </Link>
@@ -112,13 +112,13 @@ export function GetStartedSection() {
                 <span className="text-accent shrink-0 mt-0.5 font-bold" aria-hidden>✓</span>
                 <div>
                   <p className="font-medium text-text-dark text-sm">Klusta</p>
-                  <p className="text-xs text-text-muted">Sign up fast. Message hosts. Book when you’re ready.</p>
+                  <p className="text-xs text-text-muted">Sign up fast. Message hosts. Book when you&apos;re ready.</p>
                 </div>
               </div>
             </div>
             <Link
               href="/login"
-              className="inline-flex items-center justify-center mt-6 w-full md:w-auto px-6 py-3 rounded-full bg-accent text-white font-medium hover:bg-accent-dark transition-colors"
+              className="inline-flex items-center justify-center mt-6 w-full md:w-auto px-6 py-3 rounded-full bg-accent text-black font-medium hover:bg-accent-dark transition-colors"
             >
               Get started
             </Link>
