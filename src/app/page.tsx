@@ -21,7 +21,7 @@ export default function Home() {
         <HowItWorks />
         <Testimonials />
         <BottomCTA />
-        <TrustedBy />
+        {/* <TrustedBy /> */}
       </div>
       <Footer />
     </main>
