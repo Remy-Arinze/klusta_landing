@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   description: "Learn about Klusta — Nigeria's trusted shortlet marketplace focused on safety, transparency, and fairness.",
 };
 
+/* Temporarily disabled until team details are ready
 const team = [
   {
     name: "Team Member One",
@@ -24,6 +25,7 @@ const team = [
     bio: "Drives growth and day-to-day operations across Nigeria.",
   },
 ];
+*/
 
 export default function AboutPage() {
   return (
@@ -135,6 +137,7 @@ export default function AboutPage() {
           </ul>
         </section>
 
+        {/* Temporarily commenting out Team section; will add later
         <section>
           <h2 className="font-sans font-semibold text-text-dark text-xl mb-6">The team</h2>
           <p className="text-text-muted leading-relaxed mb-8">
@@ -159,6 +162,7 @@ export default function AboutPage() {
             Replace the names and roles above with your actual team details.
           </p>
         </section>
+        */}
 
         <div>
           <Link
