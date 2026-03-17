@@ -49,20 +49,21 @@ export function Hero() {
               ref={headlineRef}
               className="font-sans text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] xl:text-6xl text-text-dark font-bold tracking-tight leading-[1.15]"
             >
-              The shortlet platform Nigeria deserves.
+              Verified Short-Lets. Secure Payments.
             </h1>
             <p
               ref={subRef}
               className="mt-4 sm:mt-6 text-text-muted text-base sm:text-lg max-w-xl mx-auto lg:mx-0 leading-relaxed"
             >
-              Find and book short-term rentals across Nigeria—or list your property and start earning. Payments held in escrow until your stay is complete; negotiate with hosts, resolve issues easily, transparent pricing.
+              Discover verified apartments across Nigeria and book with confidence.
+              Your payment stays protected in payment protection system until you check in and confirm everything is right.
             </p>
             <div ref={ctaRef} className="mt-8 flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
               <Link
                 href="/login"
                 className="inline-flex items-center justify-center w-full sm:w-auto min-w-[140px] px-8 py-3.5 rounded-full bg-accent text-white font-semibold hover:bg-accent-dark transition-colors whitespace-nowrap shrink-0"
               >
-                Get started
+                Find a Stay
               </Link>
               <span className="text-sm text-text-muted">Available in</span>
               <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3">

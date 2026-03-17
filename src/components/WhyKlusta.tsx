@@ -37,11 +37,6 @@ const comparisonRows = [
     klusta: { hasCheck: true, text: "Safe & tracked" },
     others: { hasCheck: false, text: "Cash / informal" },
   },
-  {
-    feature: "Payment in escrow",
-    klusta: { hasCheck: true, text: "Held until stay complete; easy to resolve issues" },
-    others: { hasCheck: false, text: "Paid upfront; disputes harder" },
-  },
 ];
 
 function CheckIcon({ className }: { className?: string }) {
