@@ -17,7 +17,7 @@ export default function ContactPage() {
 
         <div className="space-y-8">
           <section className="p-6 rounded-2xl border border-gray-100 bg-beige-light/50">
-            <h2 className="font-sans font-semibold text-text-dark text-lg mb-2">General inquiries</h2>
+            <h2 className="font-sans font-semibold text-text-dark text-lg mb-2">General enquiries</h2>
             <p className="text-text-muted mb-2">
               For general questions about Klusta, how to list your property, or how to book a shortlet.
             </p>
@@ -48,10 +48,10 @@ export default function ContactPage() {
               For partnership opportunities, bulk listings, or business enquiries.
             </p>
             <a
-              href="mailto:partners@klusta.ng"
+              href="mailto:ifure@klusta.co"
               className="text-accent font-medium hover:underline"
             >
-              partners@klusta.ng
+              ifure@klusta.co
             </a>
           </section>
         </div>
