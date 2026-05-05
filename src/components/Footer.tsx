@@ -55,6 +55,9 @@ export function Footer() {
             <p className="text-text-muted text-sm leading-relaxed max-w-xs">
               Find and list short-term rentals across Nigeria. Book with confidence, host with ease.
             </p>
+            <p className="text-text-muted text-xs leading-relaxed max-w-xs mt-3">
+              Klusta is a product of EdgeRim LLC
+            </p>
             <Link
               href="/login"
               className="inline-flex items-center justify-center mt-6 px-6 py-3 rounded-full bg-accent text-black font-medium hover:bg-accent-dark transition-colors shrink-0"
@@ -99,7 +102,7 @@ export function Footer() {
         </div>
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-8">
           <span className="text-text-muted text-sm">
-            © {new Date().getFullYear()} Klusta. All rights reserved.
+            © {new Date().getFullYear()} EdgeRim LLC. All rights reserved.
           </span>
           <div className="flex items-center gap-6 text-sm">
             <Link

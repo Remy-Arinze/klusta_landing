@@ -164,6 +164,21 @@ export default function AboutPage() {
         </section>
         */}
 
+        <section>
+          <h2 className="font-sans font-semibold text-text-dark text-xl mb-4">Legal Information</h2>
+          <div className="p-6 rounded-2xl border border-gray-100 bg-beige-light/50">
+            <p className="text-text-dark font-medium mb-2">Company Details</p>
+            <p className="text-text-muted leading-relaxed mb-3">
+              Klusta is a product of EdgeRim LLC, a legal entity registered in the United States.
+            </p>
+            <div className="space-y-2 text-text-muted text-sm">
+              <p><strong>Legal Entity:</strong> EdgeRim LLC</p>
+              <p><strong>Address:</strong> 8 The Green STE A, Dover, KENT COUNTY, DE 19901 United States</p>
+              <p><strong>Email:</strong> dev@klusta.co</p>
+            </div>
+          </div>
+        </section>
+
         <div>
           <Link
             href="/"
