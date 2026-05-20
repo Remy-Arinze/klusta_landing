@@ -19,11 +19,6 @@ export const metadata: Metadata = {
   title: "Klusta — Find Shortlets Across Nigeria",
   description:
     "Browse and book short-term rentals in Nigeria. List your property, negotiate rates, and find your perfect shortlet.",
-  icons: {
-    icon: "/assets/favicon.ico",
-    shortcut: "/assets/favicon.ico",
-    apple: "/assets/favicon.ico",
-  },
 };
 
 export default function RootLayout({

@@ -15,7 +15,7 @@ const companyLinks = [
 
 const legalLinks = [
   { label: "Privacy Policy", href: "/privacy" },
-  { label: "Terms of Service", href: "/terms" },
+  { label: "Terms & Conditions", href: "/terms" },
 ];
 
 export function Footer() {
@@ -54,9 +54,6 @@ export function Footer() {
           <div className="lg:col-span-5">
             <p className="text-text-muted text-sm leading-relaxed max-w-xs">
               Find and list short-term rentals across Nigeria. Book with confidence, host with ease.
-            </p>
-            <p className="text-text-muted text-xs leading-relaxed max-w-xs mt-3">
-              Klusta is a product of EdgeRim LLC
             </p>
             <Link
               href="/login"
@@ -102,7 +99,7 @@ export function Footer() {
         </div>
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-8">
           <span className="text-text-muted text-sm">
-            © {new Date().getFullYear()} EdgeRim LLC. All rights reserved.
+            © {new Date().getFullYear()} Klusta. All rights reserved.
           </span>
           <div className="flex items-center gap-6 text-sm">
             <Link
@@ -115,7 +112,7 @@ export function Footer() {
               href="/terms"
               className="text-text-dark hover:text-accent transition"
             >
-              Terms of Service
+              Terms & Conditions
             </Link>
           </div>
         </div>

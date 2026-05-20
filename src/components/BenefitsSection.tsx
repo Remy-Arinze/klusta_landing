@@ -75,8 +75,8 @@ const benefits = [
     ),
   },
   {
-    title: "Payment protection",
-    description: "Your payment stays protected in our system until you check in and confirm everything is right. Safe, secure, and hassle-free.",
+    title: "Payment held in escrow",
+    description: "We hold the payment until your stay is complete. Easier to resolve issues, track everything, and release funds when both sides are satisfied.",
     bg: "bg-violet-50",
     textClass: "text-text-dark",
     icon: (
