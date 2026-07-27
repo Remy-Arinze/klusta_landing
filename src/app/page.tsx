@@ -6,7 +6,6 @@ import { WhyKlusta } from "@/components/WhyKlusta";
 import { HowItWorks } from "@/components/HowItWorks";
 import { Testimonials } from "@/components/Testimonials";
 import { BottomCTA } from "@/components/BottomCTA";
-import { TrustedBy } from "@/components/TrustedBy";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
@@ -21,7 +20,6 @@ export default function Home() {
         <HowItWorks />
         <Testimonials />
         <BottomCTA />
-        <TrustedBy />
       </div>
       <Footer />
     </main>

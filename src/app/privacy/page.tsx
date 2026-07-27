@@ -7,52 +7,21 @@ export const metadata: Metadata = {
   description: "Klusta Privacy Policy. Klusta is a product of EdgeRim LLC.",
 };
 
-const EFFECTIVE_DATE = "July 1st, 2026";
-const LAST_UPDATED = "July 1st, 2026";
-
 export default function PrivacyPage() {
   return (
     <PageLayout title="Privacy Policy">
       <article className="max-w-3xl mx-auto px-6 lg:px-10 py-12 space-y-10 text-text-muted leading-relaxed">
-        <p className="text-lg text-text-dark">
-          How Klusta collects, uses, shares and protects personal information.
-        </p>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-          <div className="rounded-xl border border-gray-200 bg-white p-4">
-            <strong className="block text-text-dark text-sm mb-1">Platform</strong>
-            Klusta
-          </div>
-          <div className="rounded-xl border border-gray-200 bg-white p-4">
-            <strong className="block text-text-dark text-sm mb-1">Company</strong>
-            EdgeRim LLC
-          </div>
-          <div className="rounded-xl border border-gray-200 bg-white p-4">
-            <strong className="block text-text-dark text-sm mb-1">Jurisdiction</strong>
-            Delaware, United States
-          </div>
-          <div className="rounded-xl border border-gray-200 bg-white p-4">
-            <strong className="block text-text-dark text-sm mb-1">Effective Date</strong>
-            {EFFECTIVE_DATE}
-          </div>
-          <div className="rounded-xl border border-gray-200 bg-white p-4 sm:col-span-2">
-            <strong className="block text-text-dark text-sm mb-1">Last Updated</strong>
-            {LAST_UPDATED}
-          </div>
-        </div>
-
         <section>
-          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">1. Introduction</h2>
-          <p className="mb-3">
-            Klusta is a product and brand operated by EdgeRim LLC, a Delaware limited liability company. This Privacy Policy explains how Klusta collects, uses, discloses, stores and protects personal information when you use the Klusta website, mobile applications, marketplace, booking services, payment features, communication tools and related services.
+          <p className="text-lg text-text-dark font-medium mb-6">
+            Effective Date: 01 July 2026
           </p>
           <p>
-            By using Klusta, you acknowledge that your personal information may be processed as described in this Privacy Policy.
+            This Privacy Policy explains how EdgeRim LLC, operating the Klusta mobile application (&quot;Klusta&quot;, &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;), collects, uses, stores, and shares information when you use the Klusta mobile application and related services (the &quot;App&quot;). By accessing or using Klusta, you agree to this Privacy Policy.
           </p>
         </section>
 
         <section>
-          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">2. Information We Collect</h2>
+          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">1. Information We Collect</h2>
 
           <h3 className="font-sans font-semibold text-text-dark text-lg mt-6 mb-2">Information You Provide</h3>
           <ul className="list-disc pl-6 space-y-2">
@@ -80,7 +49,7 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">3. How We Use Personal Information</h2>
+          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">2. How We Use Personal Information</h2>
           <p className="mb-3">We may use personal information to:</p>
           <ul className="list-disc pl-6 space-y-2">
             <li>Create and manage accounts.</li>
@@ -97,7 +66,7 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">4. Legal Bases for Processing</h2>
+          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">3. Legal Bases for Processing</h2>
           <p className="mb-3">
             Depending on the circumstances and applicable law, we may process personal information because it is necessary to perform a contract with you, to take steps at your request before entering into a contract, to comply with a legal obligation, to protect vital interests, to pursue legitimate business interests, or because you have provided consent.
           </p>
@@ -107,7 +76,7 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">5. How We Share Personal Information</h2>
+          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">4. How We Share Personal Information</h2>
           <p className="mb-3">We may share personal information with:</p>
           <ul className="list-disc pl-6 space-y-2 mb-3">
             <li>Hosts, Guests, Customers and Service Providers where necessary to facilitate a Booking or transaction.</li>
@@ -124,7 +93,7 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">6. Payments and Financial Information</h2>
+          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">5. Payments and Financial Information</h2>
           <p className="mb-3">
             Payments may be processed by third-party payment providers. Klusta may receive transaction details and limited payment information necessary to confirm and manage transactions, but payment-card information may be collected and processed directly by the applicable payment provider.
           </p>
@@ -134,7 +103,7 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">7. Cookies and Similar Technologies</h2>
+          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">6. Cookies and Similar Technologies</h2>
           <p className="mb-3">
             Klusta may use cookies, software development kits, pixels, local storage and similar technologies to keep the Platform functioning, remember preferences, understand usage, improve performance, provide security and measure marketing effectiveness.
           </p>
@@ -144,7 +113,7 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">8. Communications</h2>
+          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">7. Communications</h2>
           <p className="mb-3">
             We may send service-related communications such as booking confirmations, security alerts, account notifications and support messages.
           </p>
@@ -154,7 +123,7 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">9. Data Retention</h2>
+          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">8. Data Retention</h2>
           <p className="mb-3">
             We retain personal information for as long as reasonably necessary for the purposes described in this Privacy Policy, including to provide services, maintain business and financial records, resolve disputes, enforce agreements, prevent fraud and comply with legal obligations.
           </p>
@@ -164,7 +133,7 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">10. Data Security</h2>
+          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">9. Data Security</h2>
           <p className="mb-3">
             We use reasonable administrative, technical and organisational safeguards designed to protect personal information against unauthorised access, loss, misuse, alteration or disclosure.
           </p>
@@ -174,7 +143,7 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">11. International Data Transfers</h2>
+          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">10. International Data Transfers</h2>
           <p className="mb-3">
             Because Klusta operates using technology, service providers and infrastructure that may be located in different countries, personal information may be transferred to and processed in countries other than the country in which you live.
           </p>
@@ -184,7 +153,7 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">12. Your Privacy Rights</h2>
+          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">11. Your Privacy Rights</h2>
           <p className="mb-3">Depending on your location and applicable law, you may have rights to:</p>
           <ul className="list-disc pl-6 space-y-2 mb-3">
             <li>Request access to personal information we hold about you.</li>
@@ -202,7 +171,7 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">13. United States Privacy Rights</h2>
+          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">12. United States Privacy Rights</h2>
           <p className="mb-3">
             Depending on the state in which you reside and whether applicable thresholds are met, United States privacy laws may provide additional rights concerning access, correction, deletion, portability, opting out of certain targeted advertising or sale/sharing activities, and other forms of data processing.
           </p>
@@ -212,35 +181,35 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">14. Nigerian Data Protection</h2>
+          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">13. Nigerian Data Protection</h2>
           <p>
             Where applicable, Klusta and EdgeRim LLC will process personal information in accordance with applicable Nigerian data-protection requirements, including requirements applicable to lawful processing, transparency, security, data-subject rights and international transfers.
           </p>
         </section>
 
         <section>
-          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">15. Children&apos;s Privacy</h2>
+          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">14. Children&apos;s Privacy</h2>
           <p>
             Klusta is not intended for children who are not legally permitted to use the Platform. We do not knowingly collect personal information from children in violation of applicable law. If you believe a child has provided personal information improperly, please contact us.
           </p>
         </section>
 
         <section>
-          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">16. Third-Party Services and Links</h2>
+          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">15. Third-Party Services and Links</h2>
           <p>
             The Platform may contain links to third-party websites, services or applications. We are not responsible for the privacy practices of third parties. You should review the privacy policies of third-party services before providing them with personal information.
           </p>
         </section>
 
         <section>
-          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">17. Changes to This Privacy Policy</h2>
+          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">16. Changes to This Privacy Policy</h2>
           <p>
             We may update this Privacy Policy from time to time. Where required by law, we will provide notice of material changes. The updated version will be effective from the date stated at the top of the policy.
           </p>
         </section>
 
         <section>
-          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">18. Contact Us</h2>
+          <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">17. Contact Us</h2>
           <div className="rounded-xl border border-gray-200 bg-white p-6 space-y-2">
             <p>
               <strong className="text-text-dark">For questions regarding this policy or your privacy, contact EdgeRim LLC:</strong>

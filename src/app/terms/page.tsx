@@ -3,57 +3,38 @@ import Link from "next/link";
 import { PageLayout } from "@/components/PageLayout";
 
 export const metadata: Metadata = {
-  title: "Terms of Service — Klusta",
+  title: "Terms and Conditions — Klusta",
   description:
-    "Klusta Terms of Service, Platform Policies and Booking Conditions. Klusta is a product of EdgeRim LLC.",
+    "Klusta Terms and Conditions. Klusta is a product of EdgeRim LLC.",
 };
-
-const EFFECTIVE_DATE = "July 1st, 2026";
-const LAST_UPDATED = "July 1st, 2026";
 
 export default function TermsPage() {
   return (
-    <PageLayout title="Terms of Service, Platform Policies and Booking Conditions">
+    <PageLayout title="Terms and Conditions">
       <article className="max-w-3xl mx-auto px-6 lg:px-10 py-12 space-y-10 text-text-muted leading-relaxed">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-          <div className="rounded-xl border border-gray-200 bg-white p-4">
-            <strong className="block text-text-dark text-sm mb-1">Platform</strong>
-            Klusta
-          </div>
-          <div className="rounded-xl border border-gray-200 bg-white p-4">
-            <strong className="block text-text-dark text-sm mb-1">Company</strong>
-            EdgeRim LLC
-          </div>
-          <div className="rounded-xl border border-gray-200 bg-white p-4">
-            <strong className="block text-text-dark text-sm mb-1">Jurisdiction</strong>
-            Delaware, United States
-          </div>
-          <div className="rounded-xl border border-gray-200 bg-white p-4">
-            <strong className="block text-text-dark text-sm mb-1">Effective Date</strong>
-            {EFFECTIVE_DATE}
-          </div>
-          <div className="rounded-xl border border-gray-200 bg-white p-4 sm:col-span-2">
-            <strong className="block text-text-dark text-sm mb-1">Last Updated</strong>
-            {LAST_UPDATED}
-          </div>
-        </div>
+        <section>
+          <p className="text-lg text-text-dark font-medium mb-6">
+            Effective Date: 01 July 2026
+          </p>
+          <p className="mb-3">
+            These Terms and Conditions (&quot;Terms&quot;) form a legally binding agreement between you (&quot;User&quot;) and EdgeRim LLC, a Delaware limited liability company, operating the Klusta platform and related services (&quot;Klusta,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;), and govern your access and use of the Platform and its related services (the &quot;Service&quot;).
+          </p>
+          <p>
+            By accessing or using the Service, you agree to these Terms, the{" "}
+            <Link href="/privacy" className="text-accent font-medium hover:underline">
+              Privacy Policy
+            </Link>
+            , and the Community Guidelines.
+          </p>
+        </section>
 
         <section>
           <h2 className="font-sans font-semibold text-text-dark text-xl mb-3">1. Introduction and Scope</h2>
-          <p className="mb-3">
-            These Terms of Service, Platform Policies and Booking Conditions (the &quot;Terms&quot;) constitute a legally binding agreement between you and EdgeRim LLC, trading as &quot;Klusta&quot; (&quot;Klusta&quot;, &quot;we&quot;, &quot;us&quot; or &quot;our&quot;).
-          </p>
           <p className="mb-3">
             Klusta operates a digital marketplace and technology platform that enables users to discover, compare, negotiate, book and pay for short-let accommodation, professional services and other services made available through the Platform by independent hosts, professionals, businesses and service providers.
           </p>
           <p className="mb-3">
             These Terms apply to all use of the Klusta website, mobile applications, software, marketplace, booking tools, payment functionality, messaging tools, verification systems, customer-support channels and related services (collectively, the &quot;Platform&quot;).
-          </p>
-          <p className="mb-3">
-            By creating an account, browsing the Platform, submitting a booking request, accepting a booking, listing a service, making a payment, communicating through Klusta or otherwise using the Platform, you agree to be bound by these Terms and any policies incorporated into them.
-          </p>
-          <p className="mb-3">
-            Klusta is a product and brand operated by EdgeRim LLC, a Delaware limited liability company. For questions regarding these Terms, this Policy or your privacy, you may contact EdgeRim LLC using the contact information set out in the Contact &amp; Support section below.
           </p>
           <p>
             If you do not agree to these Terms, you must not access or use the Platform.
