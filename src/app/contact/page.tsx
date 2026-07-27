@@ -22,10 +22,10 @@ export default function ContactPage() {
               For general questions about Klusta, how to list your property, or how to book a shortlet.
             </p>
             <a
-              href="mailto:hello@klusta.ng"
+              href="mailto:support@klusta.co"
               className="text-accent font-medium hover:underline"
             >
-              hello@klusta.ng
+              support@klusta.co
             </a>
           </section>
 
@@ -35,10 +35,10 @@ export default function ContactPage() {
               For help with an active booking, payment issues, or account problems.
             </p>
             <a
-              href="mailto:support@klusta.ng"
+              href="mailto:support@klusta.co"
               className="text-accent font-medium hover:underline"
             >
-              support@klusta.ng
+              support@klusta.co
             </a>
           </section>
 
@@ -48,10 +48,10 @@ export default function ContactPage() {
               For partnership opportunities, bulk listings, or business enquiries.
             </p>
             <a
-              href="mailto:partners@klusta.ng"
+              href="mailto:support@klusta.co"
               className="text-accent font-medium hover:underline"
             >
-              partners@klusta.ng
+              support@klusta.co
             </a>
           </section>
         </div>
