@@ -60,7 +60,7 @@ export function Hero() {
             <div ref={ctaRef} className="mt-8 flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
               <Link
                 href="/login"
-                className="inline-flex items-center justify-center w-full sm:w-auto min-w-[140px] px-8 py-3.5 rounded-full bg-accent text-white font-semibold hover:bg-accent-dark transition-colors whitespace-nowrap shrink-0"
+                className="inline-flex items-center justify-center w-full sm:w-auto min-w-[140px] px-8 py-3.5 rounded-full bg-accent text-text-dark font-semibold hover:bg-accent-dark transition-colors whitespace-nowrap shrink-0"
               >
                 Get started
               </Link>

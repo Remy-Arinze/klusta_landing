@@ -11,9 +11,9 @@ const benefits = [
     title: "Nationwide coverage",
     description: "Browse shortlets in Lagos, Abuja, Port Harcourt, Ibadan, Calabar and more. One platform for all of Nigeria.",
     bg: "bg-accent",
-    textClass: "text-white",
+    textClass: "text-text-dark",
     icon: (
-      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+      <svg className="w-8 h-8 text-text-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9 9 0 100-18 9 9 0 000 18z" />
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 12l3-6m0 0l3 6m-6-6v12" />
       </svg>
@@ -144,8 +144,12 @@ export function BenefitsSection() {
               <div className="mb-4" aria-hidden>
                 {item.icon}
               </div>
-              <h3 className="font-sans font-bold text-lg mb-2">{item.title}</h3>
-              <p className="text-sm opacity-90 leading-relaxed">{item.description}</p>
+              <h3 className={`font-sans font-bold text-lg mb-2 ${item.textClass}`}>
+                {item.title}
+              </h3>
+              <p className={`text-sm opacity-90 leading-relaxed ${item.textClass}`}>
+                {item.description}
+              </p>
             </article>
           ))}
         </div>
